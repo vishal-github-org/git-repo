@@ -1,0 +1,64 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color:aquamarine;
+    background-image: url('4k-programming-with-blue-eyeglasses-vj4l8y5fr5lihujl.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin:10px ;
+
+}
+
+*{
+    margin: 0;
+    border: 0;
+}
+
+h1{
+    color: aquamarine;
+    font-family:serif;
+    font-size: 60px;
+}
+
+.upper{
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+#username{
+    border-radius: 8px;
+    font-size: 35px;
+    color:#124559;
+    background-color:whitesmoke;
+    /* margin-top: 20px; */
+}
+
+#get{
+    border-radius: 10px;
+    font-size: 25px;
+    height: 45px;
+    background-color:blueviolet;
+}
+
+#get:hover{
+    background-color: #9d4edd;
+}
+
+#result {
+    margin-top: 20px;
+    background-color: rgba(250, 235, 215, 0.062);
+    backdrop-filter: blur(5px);
+}
+
+a{
+    text-decoration:none;
+    color:yellowgreen;
+}
+
+#result ul li{
+    list-style-type:none;
+    padding:30px 0px;
+    font-weight: 800;
+    font-size: 40px;
+}
