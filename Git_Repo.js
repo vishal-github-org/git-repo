@@ -11,9 +11,9 @@
                 return;
             }
 
-            // Replace 'YOUR_ACCESS_TOKEN' with your actual GitHub access token
-		//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
-            const accessToken = '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';
+           
+		// my access token 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
+            const accessToken = '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';
             const apiUrl = `https://api.github.com/users/${username}/repos?access_token=${accessToken}`;
 
             fetch(apiUrl, { headers: { Authorization: `Bearer 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`}})
