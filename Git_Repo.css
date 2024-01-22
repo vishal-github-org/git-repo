@@ -62,3 +62,10 @@ a{
     font-weight: 800;
     font-size: 40px;
 }
+p{
+    list-style-type:none;
+    padding:30px 0px;
+    font-weight: 800;
+    font-size: 40px;
+    color:yellowgreen;
+}
