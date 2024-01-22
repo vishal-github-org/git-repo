@@ -12,8 +12,8 @@
             }
 
            
-		// my access token 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
-            const accessToken = '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';
+		// my access token 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
+            const accessToken = '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';
             const apiUrl = `https://api.github.com/users/${username}/repos?access_token=${accessToken}`;
 
             fetch(apiUrl, { headers: { Authorization: `Bearer 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`}})
